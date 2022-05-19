@@ -1,0 +1,46 @@
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    margin-bottom: 20px;
+    caret-color: rgb(25, 118, 210);
+    cursor: pointer;
+    outline-color: #0c75ff;
+    outline-width: 1px;
+}
+
+.btn {
+    background-color: rgb(25, 118, 210);
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    margin-left: 58px;
+}
+
+.contact {
+    width: 200px;
+    height: 290px;
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+body {
+    max-width: 300px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.form-group {
+    position: relative;
+}
+
+span {
+    position: absolute;
+    left: 1px;
+    top: 16px;
+}
+
+input {
+    padding-left: 22px;
+}
